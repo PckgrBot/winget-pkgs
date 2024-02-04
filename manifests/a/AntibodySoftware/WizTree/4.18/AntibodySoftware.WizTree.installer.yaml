@@ -13,9 +13,6 @@ UpgradeBehavior: install
 ProductCode: WizTree_is1
 ReleaseDate: 2024-02-02
 Installers:
-- Architecture: x86
-  InstallerUrl: https://diskanalyzer.com/files/wiztree_4_18_setup.exe
-  InstallerSha256: D03EBDFAA3AAD90D76C21AECFE858FFD84784B8FAF8B7C43BADD4A54EEF8C4EB
 - Architecture: x64
   InstallerUrl: https://diskanalyzer.com/files/wiztree_4_18_setup.exe
   InstallerSha256: D03EBDFAA3AAD90D76C21AECFE858FFD84784B8FAF8B7C43BADD4A54EEF8C4EB
