@@ -26,12 +26,17 @@ Tags:
 - editor
 - programming
 ReleaseNotes: |-
-  Patch Fixes
+  Cascade Memories, Web Search and Docs
+
+  Improvements
+  - Cascade Web search now includes the website description and uses page rank to determine relevance
+  - Improvements to Cascade Auto-Generated Memories (Beta)
 
   Fixes
-  - Fixed Cascade's Chat Mode sometimes not giving an "Apply" button
-  - Dev Container Stability Improvements
-  - Some Fixes for Cascade Flow Actions on Windows users
+  - Fixed input lag in long Cascade conversations
+  - Increased precision when Cascade makes code edits
+  - Fixed issues around Cascade edits with .gitignore files
+  - Fixed Tab to Jump Quick Setting configuration
 ReleaseNotesUrl: https://codeium.com/changelog
 PurchaseUrl: https://codeium.com/pricing
 Documentations:
