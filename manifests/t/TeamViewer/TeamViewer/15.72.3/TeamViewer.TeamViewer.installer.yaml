@@ -1,0 +1,68 @@
+# Created with komac v2.14.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: TeamViewer.TeamViewer
+PackageVersion: 15.72.3
+Scope: machine
+UpgradeBehavior: install
+Protocols:
+- blizzv1
+- teamviewer10
+- teamviewer8
+- teamviewerapi
+- tvchat1
+- tvcontrol1
+- tvfiletransfer1
+- tvjoinv8
+- tvoneweblogin
+- tvpresent1
+- tvsendfile1
+- tvsqcustomer1
+- tvsqsupport1
+- tvvideocall1
+- tvvpn1
+FileExtensions:
+- tpsr
+- tvc
+- tvlink
+- tvs
+ReleaseDate: 2025-11-25
+Installers:
+- Architecture: neutral
+  InstallerType: zip
+  NestedInstallerType: wix
+  NestedInstallerFiles:
+  - RelativeFilePath: Full/TeamViewer_Full.msi
+  InstallerUrl: https://download.teamviewer.com/download/version_15x/TeamViewer_MSI32.zip
+  InstallerSha256: 733983949D8F786049227FE9E2C06FB6264586A9FDF8979EA09B1A5B1344013C
+  InstallerSwitches:
+    InstallLocation: INSTALLFOLDER="<INSTALLPATH>"
+  ProductCode: '{0EF2D7C8-D829-4CAF-9A63-4CBBA96C6676}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{0EF2D7C8-D829-4CAF-9A63-4CBBA96C6676}'
+    UpgradeCode: '{98A72954-BC0F-11E8-9CC6-3F794D8C2BDE}'
+- Architecture: neutral
+  InstallerType: zip
+  NestedInstallerType: wix
+  NestedInstallerFiles:
+  - RelativeFilePath: Full/TeamViewer_Full.msi
+  InstallerUrl: https://download.teamviewer.com/download/version_15x/TeamViewer_MSI32.zip
+  InstallerSha256: 733983949D8F786049227FE9E2C06FB6264586A9FDF8979EA09B1A5B1344013C
+  InstallerSwitches:
+    InstallLocation: INSTALLFOLDER="<INSTALLPATH>"
+  ProductCode: '{6FA8058E-A007-4E7C-8E23-BB92E1269C95}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{6FA8058E-A007-4E7C-8E23-BB92E1269C95}'
+    UpgradeCode: '{F0C19578-BC20-4F79-B2C3-EA824DE91F34}'
+- InstallerLocale: en-US
+  Architecture: x86
+  InstallerType: nullsoft
+  InstallerUrl: https://download.teamviewer.com/download/TeamViewer_Setup.exe
+  InstallerSha256: 8367DA38BE7E42A101D589CB737A3A96AB707EEAE0116C21C85ED0F39AFB217F
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerType: nullsoft
+  InstallerUrl: https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe
+  InstallerSha256: 68C763D1BF14C4E36045B0215DBE79155300CFED22D474E891155CA7DB476F82
+ManifestType: installer
+ManifestVersion: 1.10.0
