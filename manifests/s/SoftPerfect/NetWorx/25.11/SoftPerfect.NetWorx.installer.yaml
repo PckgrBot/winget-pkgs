@@ -10,6 +10,6 @@ ReleaseDate: 2025-11-03
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.softperfect.com/download/files/networx_setup.exe
-  InstallerSha256: 8708E734D7E7832BE6EA07E5960199A5F242CB9F53E91E31F4FA45714F68323F
+  InstallerSha256: E9E7AE7E3DDB38453CBA61E90F13DF517A2B8BD9BE371BF485F33BEDE77F6CA4
 ManifestType: installer
 ManifestVersion: 1.10.0
