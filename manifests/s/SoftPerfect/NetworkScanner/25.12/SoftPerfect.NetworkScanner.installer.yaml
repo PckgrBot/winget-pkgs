@@ -10,6 +10,6 @@ ReleaseDate: 2025-12-09
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.softperfect.com/download/files/netscan_setup.exe
-  InstallerSha256: 21745F9B6501A6278965654DAC6B3B6319A52096464696644996BB58AF01B93C
+  InstallerSha256: 4229AC2C3C3E052E58E7F5DEBB830AF23965A9C82E24DC8A96EB5A12F82BA19A
 ManifestType: installer
 ManifestVersion: 1.10.0
