@@ -12,9 +12,9 @@ ProductCode: MediaHuman YouTube Downloader_is1
 Installers:
 - Architecture: x86
   InstallerUrl: https://www.mediahuman.com/files/YouTubeDownloader.exe
-  InstallerSha256: 79C1F80AC6BA8D04EF44C0D578A2B2C7717B736F74FF9C462FF1A29708285830
+  InstallerSha256: D587304C8D28A873239B89C20726FA6624BBC3B1E87A35F911C4FA5C61929B57
 - Architecture: x64
   InstallerUrl: https://www.mediahuman.com/files/YouTubeDownloader-x64.exe
-  InstallerSha256: 6A049061B14F4558C4EBFBDFAC10A5D8C217DCD043719AE5257C3860E1A068D7
+  InstallerSha256: 784CD07AA185D8D511EFA8FF21CD59AE4C8274E610329769A8E3C8A5385CACBC
 ManifestType: installer
 ManifestVersion: 1.12.0
