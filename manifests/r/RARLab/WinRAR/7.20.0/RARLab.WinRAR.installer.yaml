@@ -53,6 +53,10 @@ Installers:
   Architecture: x64
   InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720.exe
   InstallerSha256: 86CD474922B9AF0930E308A6136E87B855B843C0C687FF2505EB7A839AFD4886
+- InstallerLocale: ar
+  Architecture: x64
+  InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720ar.exe
+  InstallerSha256: A319955FE79270B9B5EFEE663CB048A67320355DA0D1F5D72FC39582502789FE
 - InstallerLocale: zh-Hant
   Architecture: x64
   InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720tc.exe
@@ -81,6 +85,10 @@ Installers:
   Architecture: x64
   InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720id.exe
   InstallerSha256: EE10C2A7C702A202ACBD16150269FC809869BF7A53405859FE8A09813A7EDB65
+- InstallerLocale: it
+  Architecture: x64
+  InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720it.exe
+  InstallerSha256: ED7C0DDD2A7CE8016D6A1ECD421865F9C91674C1F0539938E3622C59A6581F1B
 - InstallerLocale: pt
   Architecture: x64
   InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720pt.exe
@@ -97,6 +105,14 @@ Installers:
   Architecture: x64
   InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720sw.exe
   InstallerSha256: 63D6A9E5F08460CE92B4A56C96ABE9728D3F11B0DE9A4D86C5A681E93EA0EE9E
+- InstallerLocale: th
+  Architecture: x64
+  InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720th.exe
+  InstallerSha256: 436733CB794F23F3F23D5B11BCA16098189E25CA1EDD38F364FB1E0FB7772AB9
+- InstallerLocale: tr
+  Architecture: x64
+  InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720tr.exe
+  InstallerSha256: 381CF6406254A556A9965ECC644E7D7C413BBB90ED1FA8724F36F97A37D0A510
 - InstallerLocale: uk
   Architecture: x64
   InstallerUrl: https://www.rarlab.com/rar/winrar-x64-720uk.exe
